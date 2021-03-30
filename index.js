@@ -52,7 +52,7 @@ function convertAudio() {
 			idata.data.set(imgarr);
 			ctx.putImageData(idata, 0, 0);
 			status.textContent = "Compressing to JPEG";
-			imageConversion.canvastoFile(canvas, .5, "image/jpeg").then(file => {
+			imageConversion.canvastoFile(canvas, .95, "image/jpeg").then(file => {
 				/*status.textContent = "Adding custom flags";
 				var jaegFlags = {};
 				jaegFlags[0] = 0; // JAEFType
